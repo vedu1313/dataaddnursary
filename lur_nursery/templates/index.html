@@ -1,0 +1,1115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Nursery Project</title>
+  <link rel="stylesheet" href="{% static "style.css" %}">
+  <a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="top-nav">
+    <div class="firstnav">
+      <div class="left-cntnt">
+        <a href="#">
+          <p style="background-color: #ff6b6b; color: white; height: 90%; border-radius: 2px;">Rewards</p>
+        </a>
+        <a href="#">
+          <p style="color: black;">Help</p>
+        </a>
+        <a href="#">
+          <p style="color: black;">Track Order </p>
+        </a>
+        <a href="#">
+          <p style="color: black;">Orders</p>
+        </a>
+        <a href="#">
+          <p style="color: black;">Wishlist</p>
+        </a>
+        <a href="#">
+          <p style="color: black;">Offers</p>
+        </a>
+        <a href="#">
+          <p style="color: black;">Corporate</p>
+        </a>
+      </div>
+      <div class="right-cntnt">
+        <div class="dropdown1">
+        </div>
+        <div class="icons" style="display: flex; gap: 1rem;">
+          <a href="#" style="color:#7d0101;"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" style="color:#7d0101;"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" style="color:#7d0101"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="secondnav">
+    <div class="nav-container">
+      <div class="main-tabs">
+        <header class="header">
+          <div class="container">
+            <div class="row">
+              <div class="item-left">
+                <a href="#"
+                  style="text-decoration: none;width: 100px;color: green; padding-left: 50px;font-size: larger;"><b>Nursery</b></a>
+                <input type="text" placeholder="What Are You Looking For...."
+                  style="width:50%;height:40px; padding-left: 50px;margin-top: 10px;">
+                <a href="#"><button type="submit"
+                    style="width: 40px;height: 40px;background-color:#ff6b6b;color: white; border: none;"><i
+                      class="fa fa-search"></i></button></a>
+                <a href="#" style="text-decoration: none; padding-left: 300px;"><i
+                    class="fa-solid fa-user"></i>Login</a>
+                <a href="#" style="text-decoration: none; padding-left:40px; width: 30px;height: 30px;"><i
+                    class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+              <div class="item-center">
+                <nav class="menu">
+                  <ul class="menu-main">
+                    <li class="menu-item-has-children">
+                      <a href="#">Gardening<i class="fa fa-angle-down"></i></a>
+                      <div class="sub-menu mega-menu" style="display: flex; gap: 2rem; margin-left: 140px;">
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9; width: 400px;">
+                          <h4 class="title">Trending in Gardening</h4>
+                          <ul style="text-decoration: none;">
+                            <li>
+                              <a href="#">Bestsellers in Gardening</a>
+                            </li>
+                            <li>
+                              <a href="#">Indoor Garden</a>
+                            </li>
+                            <li>
+                              <a href="#">Monsoon Special Plants Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Balcony and Terrace Garden</a>
+                            </li>
+                            <li>
+                              <a href="#">Vertical Garden</a>
+                            </li>
+                            <li>
+                              <a href="#">Miniature Gardens</a>
+                            </li>
+                            <li>
+                              <a href="#">Garden Kits</a>
+                            </li>
+                            <li>
+                              <a href="#">Top 3 Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Top 5 Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Indoor Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Air Purifying Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Cactus and Succulents' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Flowering Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Low Maintenance Plants' Packs</a>
+                            </li>
+                            <br><br>
+                            <h4 class="title">Plants' Packs by Season</h4>
+                            <li>
+                              <a href="#">Winter Special Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Summer Special Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Monsoon Special Packs</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Plants' Packs by Features</h4>
+                          <ul style="text-decoration: none; width: 210px;">
+                            <li>
+                              <a href="#">Air Purifying Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Cactus and Succulents' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Flowering Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Hanging Basket Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Indoor Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Low Maintenance Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Lucky Plants' Packs</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Top plants' packs</h4>
+                          <ul style="text-decoration: none; width: 180px;">
+                            <li>
+                              <a href="#">Top 2 Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Top 3 Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Top 4 Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Top 5 Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Value For Money Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Work From Home Plants' Packs</a>
+                            </li>
+
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Miniature Gardens & Kits</h4>
+                          <ul style="text-decoration: none;">
+                            <li>
+                              <a href="#">Garden Kits</a>
+                            </li>
+                            <li>
+                              <a href="#">Kids Gardening Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Miniature Gardens</a>
+                            </li>
+                            <li>
+                              <a href="#">Terrariums</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Plants' Packs by Location</h4>
+                          <ul style="text-decoration: none; width: 120px;">
+                            <li>
+                              <a href="#">Balcony and Terrace Garden</a>
+                            </li>
+                            <li>
+                              <a href="#">Indoor Garden</a>
+                            </li>
+                            <li>
+                              <a href="#">Office Plants' Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Plants' Packs For Office Desk</a>
+                            </li>
+                            <li>
+                              <a href="#">Vertical Garden</a>
+                            </li>
+                            <li>
+                              <a href="#">Window Sill Garden</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Plants' Packs by Occasions</h4>
+                          <ul style="text-decoration: none;">
+                            <li>
+                              <a href="#">Eco Friendly Ganesha</a>
+                            </li>
+                            <li>
+                              <a href="#">Plants' Packs For Festivals N Occasions</a>
+                            </li>
+                            <li>
+                              <a href="#">Plants' Packs For Pooja</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-item-has-children">
+                      <a style="text-decoration: none;" href="#">Plants<i class="fa fa-angle-down"></i></a>
+                      <div class="sub-menu mega-menu" style="display: flex; gap: 1rem; margin-left: 200px;">
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;width: 300px;">
+                          <h4 class="title">Trending Plants</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Indoor Plants</a></li>
+                            <li><a href="#">Best Seller Plants</a></li>
+                            <li><a href="#">Flowering Plants</a></li>
+                            <li><a href="#">Monsoon Plants</a></li>
+                            <li><a href="#">Air Purifying Plants</a></li>
+                            <li><a href="#">Aromatic Plants</a></li>
+                            <li><a href="#">Bonsai Plants</a></li>
+                            <li><a href="#">Cactus and Succulents</a></li>
+                            <li><a href="#">Fruit Plants</a></li>
+                            <li><a href="#">Kokedama Plants</a></li>
+                            <li><a href="#">Low Maintenance Plants</a></li>
+                            <li><a href="#">Oxygen Plants</a></li>
+                            <li><a href="#">Lucky Bamboos</a></li>
+                            <li><a href="#">Palm Plants</a></li>
+                            <li><a href="#">Rose Plants</a></li>
+                            <br><br>
+                            <h4 class="title">Flowering Plants</h4>
+                            <li><a href="#">Adenium Plants</a></li>
+                            <li><a href="#">Allamanda Plants</a></li>
+                            <li><a href="#">Anthurium Plants</a></li>
+                            <li><a href="#">Aster Plants</a></li>
+                            <li><a href="#">Begonia Plants</a></li>
+                            <li><a href="#">Bougainvillea Plants</a></li>
+                            <li><a href="#">Canna Plants</a></li>
+                            <li><a href="#">Carnation Plants</a></li>
+                            <li><a href="#">Celosia Plants</a></li>
+                            <li><a href="#">Chrysanthemum Plants</a></li>
+
+                            <li><a href="#">Dahlia Plants</a></li>
+                            <li><a href="#">Dianthus Plants</a></li>
+                            <li><a href="#">Euphorbia Plants</a></li>
+                            <li><a href="#">Flowering Creepers</a></li>
+                            <li><a href="#">Flowering Trees</a></li>
+                            <li><a href="#">Gazania Plants</a></li>
+                            <li><a href="#">Geranium Plants</a></li>
+                            <li><a href="#">Gerbera Plants</a></li>
+                            <li><a href="#">Heliconia Plants</a></li>
+                            <li><a href="#">Hibiscus Plants</a></li>
+
+                            <li><a href="#">Hydrangea Plants</a></li>
+                            <li><a href="#">Ixora Plants</a></li>
+                            <li><a href="#">Jasmine Plants</a></li>
+                            <li><a href="#">Kalanchoe Plants</a></li>
+                            <li><a href="#">Kaner Plants</a></li>
+                            <li><a href="#">Lantana Plants</a></li>
+                            <li><a href="#">Lily Plants</a></li>
+                            <li><a href="#">Mandevilla Plants</a></li>
+                            <li><a href="#">Marigold Plants</a></li>
+                            <li><a href="#">Mussaenda Plants</a></li>
+
+                            <li><a href="#">Orchid Plants</a></li>
+                            <li><a href="#">Passiflora Plants</a></li>
+                            <li><a href="#">Peace Lily Plants</a></li>
+                            <li><a href="#">Petunia Plants</a></li>
+                            <li><a href="#">Plumeria Plants</a></li>
+                            <li><a href="#">Poinsettia Plants</a></li>
+                            <li><a href="#">Portulaca Plants</a></li>
+                            <li><a href="#">Rose Plants</a></li>
+                            <li><a href="#">Salvia Plants</a></li>
+                            <li><a href="#">Thunbergia Plants</a></li>
+                            <li><a href="#">Torenia Plants</a></li>
+                            <li><a href="#">Vinca Plants</a></li>
+                            <li><a href="#">Zinnia Plants</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Plants by Type</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Air Plants</a></li>
+                            <li><a href="#">Aquatic Plants</a></li>
+                            <li><a href="#">Avenue Trees</a></li>
+                            <li><a href="#">Bamboo Plants</a></li>
+                            <li><a href="#">Bonsai Plants</a></li>
+                            <li><a href="#">Cactus Plants</a></li>
+                            <li><a href="#">Climber Plants</a></li>
+                            <li><a href="#">Conifer Plants</a></li>
+                            <li><a href="#">Creeper Plants</a></li>
+                            <li><a href="#">Ferns</a></li>
+                            <li><a href="#">Ficus Plants</a></li>
+                            <li><a href="#">Fig Plants</a></li>
+                            <li><a href="#">Fruit Plants</a></li>
+                            <li><a href="#">Grafted Fruit Plants</a></li>
+                            <li><a href="#">Ground Cover Plants</a></li>
+                            <li><a href="#">Herb Plants</a></li>
+                            <li><a href="#">Indian States Flowers and Trees</a></li>
+                            <li><a href="#">Kokedama Plants</a></li>
+                            <li><a href="#">Palms and Cycads Plants</a></li>
+                            <li><a href="#">Perennial Plants</a></li>
+                            <li><a href="#">Shrubs</a></li>
+                            <li><a href="#">Spice Plants</a></li>
+                            <li><a href="#">Succulent Plants</a></li>
+                            <br><br>
+                            <h4 class="title">Plants by Color</h4>
+                            <li><a href="#">Aglaonema Plants</a></li>
+                            <li><a href="#">Alocasia Plants</a></li>
+                            <li><a href="#">Aloe vera Plants</a></li>
+                            <li><a href="#">Aralia Plants</a></li>
+                            <li><a href="#">Areca Palm Plants</a></li>
+                            <li><a href="#">Calathea Plants</a></li>
+                            <li><a href="#">Coleus Plants</a></li>
+                            <li><a href="#">Croton Plants</a></li>
+                            <li><a href="#">Dieffenbachia Plants</a></li>
+                            <li><a href="#">Dracaena Plants</a></li>
+                            <li><a href="#">Duranta Plants</a></li>
+                            <li><a href="#">Haworthia Plants</a></li>
+                            <li><a href="#">Hoya Plants</a></li>
+                            <li><a href="#">Jade Plants</a></li>
+                            <li><a href="#">Money Plants</a></li>
+                            <li><a href="#">Pandanus Plants</a></li>
+                            <li><a href="#">Peperomia Plants</a></li>
+                            <li><a href="#">Philodendron Plants</a></li>
+                            <li><a href="#">Rhoeo Plants</a></li>
+                            <li><a href="#">Rubber Plants</a></li>
+                            <li><a href="#">Schefflera Plants</a></li>
+                            <li><a href="#">Senecio Plants</a></li>
+                            <li><a href="#">Snake Plants</a></li>
+                            <li><a href="#">Spider Plants</a></li>
+                            <li><a href="#">Syngonium Plants</a></li>
+                            <li><a href="#">Tulsi Plants</a></li>
+                            <li><a href="#">ZZ Plants</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Plants by Features Uses</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Air Purifying Plants</a></li>
+                            <li><a href="#">Aromatic / Fragrant Plants</a></li>
+                            <li><a href="#">Drought Tolerant Plants</a></li>
+                            <li><a href="#">Fruit Plants can be grown in Pots</a></li>
+                            <li><a href="#">Hanging Baskets</a></li>
+                            <li><a href="#">Insect Repellent Plants</a></li>
+                            <li><a href="#">Interesting Plants</a></li>
+                            <li><a href="#">Low Maintenance Plants</a></li>
+                            <li><a href="#">Lucky Bamboos</a></li>
+                            <li><a href="#">Lucky Plants</a></li>
+                            <li><a href="#">Medicinal Plants</a></li>
+                            <li><a href="#">Nakshatra/Zodiac/Rashi Plants</a></li>
+                            <li><a href="#">Pet Friendly Plants</a></li>
+                            <li><a href="#">Plants Absorb CO2 at Night</a></li>
+                            <li><a href="#">Plants for Butterflies and Birds</a></li>
+                            <li><a href="#">Plants for Flower Beds</a></li>
+                            <li><a href="#">Plants for Hanging Pots</a></li>
+                            <li><a href="#">Plants for Hedges</a></li>
+                            <li><a href="#">Plants for Landscaping</a></li>
+                            <li><a href="#">Plants for Vertical Gardens</a></li>
+                            <li><a href="#">Shrub / Trees can be grown in Pots</a></li>
+                            <li><a href="#">Vastu Plants</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9; width: 220px;" class="list-item">
+                          <h4 class="title">Plants by Season</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">All Season Flowering Plants</a></li>
+                            <li><a href="#">All Season Plants</a></li>
+                            <li><a href="#">Winter Flowering Plants</a></li>
+                            <li><a href="#">Winter Plants</a></li>
+                            <li><a href="#">Summer Plants</a></li>
+                            <li><a href="#">Monsoon Plants</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Plants by Location</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Indoor Plants</a></li>
+                            <li><a href="#">Outdoor Plants</a></li>
+                            <li><a href="#">Plants for AC Rooms</a></li>
+                            <li><a href="#">Plants for Bathroom</a></li>
+                            <li><a href="#">Plants for Bedroom</a></li>
+                            <li><a href="#">Plants for Kitchen</a></li>
+                            <li><a href="#">Plants for Living Room</a></li>
+                            <li><a href="#">Plants For Office</a></li>
+                            <li><a href="#">Plants for Office Desk</a></li>
+                            <li><a href="#">Plants for Table Top</a></li>
+                            <li><a href="#">Plants for Terrace And Balcony</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Foliage Plants</h4>
+                          <ul style="text-decoration: none; width: 200px;">
+                            <li><a href="#">Aglaonema Plants</a></li>
+                            <li><a href="#">Alocasia Plants</a></li>
+                            <li><a href="#">Aloe vera Plants</a></li>
+                            <li><a href="#">Aralia Plants</a></li>
+                            <li><a href="#">Areca Palm Plants</a></li>
+                            <li><a href="#">Calathea Plants</a></li>
+                            <li><a href="#">Coleus Plants</a></li>
+                            <li><a href="#">Croton Plants</a></li>
+                            <li><a href="#">Dieffenbachia Plants</a></li>
+                            <li><a href="#">Dracaena Plants</a></li>
+                            <li><a href="#">Duranta Plants</a></li>
+                            <li><a href="#">Haworthia Plants</a></li>
+                            <li><a href="#">Hoya Plants</a></li>
+                            <li><a href="#">Jade Plants</a></li>
+                            <li><a href="#">Money Plants</a></li>
+                            <li><a href="#">Pandanus Plants</a></li>
+                            <li><a href="#">Peperomia Plants</a></li>
+                            <li><a href="#">Philodendron Plants</a></li>
+                            <li><a href="#">Rhoeo Plants</a></li>
+                            <li><a href="#">Rubber Plants</a></li>
+                            <li><a href="#">Schefflera Plants</a></li>
+                            <li><a href="#">Senecio Plants</a></li>
+                            <li><a href="#">Snake Plants</a></li>
+                            <li><a href="#">Spider Plants</a></li>
+                            <li><a href="#">Syngonium Plants</a></li>
+                            <li><a href="#">Tulsi Plants</a></li>
+                            <li><a href="#">ZZ Plants</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-item-has-children">
+                      <a style="text-decoration: none;" href="#">Seeds<i class="fa fa-angle-down"></i></a>
+                      <div class="sub-menu mega-menu" style="display: flex; gap: 2rem; margin-left: 150px;">
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;width: 300px;">
+                          <h4 class="title">Trending Seeds</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Best Seller Seeds</a></li>
+                            <li><a href="#">Month Wise Gardening</a></li>
+                            <li><a href="#">Rainy Sowing Seeds</a></li>
+                            <li><a href="#">Seed's Packs</a></li>
+                            <li><a href="#">Seeds to Sow in All Seasons</a></li>
+                            <li><a href="#">Easy to Grow Seeds</a></li>
+                            <li><a href="#">Microgreen Seeds (Organic)</a></li>
+                            <li><a href="#">Vegetable / Herb Seeds (Organic)</a></li>
+                            <li><a href="#">Seed Balls</a></li>
+                            <br><br>
+                            <h4 class="title">Seeds to Sow in All Seasons</h4>
+                            <li><a href="#">Vegetable Seeds to Sow in All Seasons</a></li>
+                            <li><a href="#">Herb Seeds to Sow in All Seasons</a></li>
+                            <li><a href="#">Flower Seeds to Sow in All Seasons</a></li>
+                            <li><a href="#">Fruit Seeds to Sow in All Seasons</a></li>
+                            <li><a href="#">Tree And Forestry Seeds to Sow in All Seasons</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Vegetable/Herb Seeds</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Exotic Herb Seeds</a></li>
+                            <li><a href="#">Exotic Vegetable Seeds</a></li>
+                            <li><a href="#">Indian Herb Seeds</a></li>
+                            <li><a href="#">Indian Vegetable Seeds</a></li>
+                            <li><a href="#">Microgreen Seeds</a></li>
+                            <li><a href="#">Microgreen Seeds (Organic)</a></li>
+                            <li><a href="#">Vegetable / Herb Seeds (Organic)</a></li>
+                            <li><a href="#">Vegetable / Herb Seeds (Heirloom)</a></li>
+                            <li><a href="#">Vegetable / Herb Seeds (Imported / Hybrid)</a></li>
+                            <li><a href="#">Vegetable / Herb Seeds (OP / Desi)</a></li>
+                            <li><a href="#">Vegetable Seeds Can be Grown in Pot</a></li>
+                            <li><a href="#">Herb Seeds Can be Grown in Pots</a></li>
+                            <br><br>
+                            <h4 class="title">Easy to grow Seeds</h4>
+                            <li><a href="#">Easy to Grow Vegetable Seeds</a></li>
+                            <li><a href="#">Easy to Grow Herb Seeds</a></li>
+                            <li><a href="#">Easy to Grow Microgreens</a></li>
+                            <li><a href="#">Easy To Grow Flower Seeds</a></li>
+                            <li><a href="#">Easy To Grow Fruit Seeds</a></li>
+                            <li><a href="#">Easy To Grow Forestry Seeds</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Flower Seeds</h4>
+                          <ul style="text-decoration: none;">
+
+                            <li><a href="#">Flower Seeds (OP / Desi)</a></li>
+                            <li><a href="#">Flower Seeds (Imported / Hybrid)</a></li>
+                            <li><a href="#">Flowering Tree and Shrub Seeds</a></li>
+                            <li><a href="#">Fragrant Flower Seeds</a></li>
+                            <li><a href="#">Seeds for Flower Bed</a></li>
+                            <li><a href="#">Flower Seeds Can be Grown in Pots</a></li>
+                            <br><br>
+                            <h4 class="title">Seeds by Name</h4>
+                            <li><a href="#">Amaranthus Seeds</a></li>
+                            <li><a href="#">Basil Seeds</a></li>
+                            <li><a href="#">Beans Seeds</a></li>
+                            <li><a href="#">Beet Root Seeds</a></li>
+                            <li><a href="#">Bellpepper Seeds</a></li>
+                            <li><a href="#">Bhindi Seeds</a></li>
+                            <li><a href="#">Brinjal Seeds</a></li>
+                            <li><a href="#">Broccoli Seeds</a></li>
+                            <li><a href="#">Cabbage Seeds</a></li>
+                            <li><a href="#">Capsicum Seeds</a></li>
+                            <li><a href="#">Carrot Seeds</a></li>
+                            <li><a href="#">Cauliflower Seeds</a></li>
+                            <li><a href="#">Chilli Seeds</a></li>
+                            <li><a href="#">Coriander Seeds</a></li>
+                            <li><a href="#">Cucumber Seeds</a></li>
+                            <li><a href="#">Marigold Seeds</a></li>
+                            <li><a href="#">Methi Seeds</a></li>
+                            <li><a href="#">Onion Seeds</a></li>
+                            <li><a href="#">Pansy Seeds</a></li>
+                            <li><a href="#">Papaya Seeds</a></li>
+                            <li><a href="#">Parsley Seeds</a></li>
+                            <li><a href="#">Peas Seeds</a></li>
+                            <li><a href="#">Petunia Seeds</a></li>
+                            <li><a href="#">Pumpkin Seeds</a></li>
+                            <li><a href="#">Radish Seeds</a></li>
+                            <li><a href="#">Salvia Seeds</a></li>
+                            <li><a href="#">Spinach Seeds</a></li>
+                            <li><a href="#">Sunflower Seeds</a></li>
+                            <li><a href="#">Tomato Seeds</a></li>
+                            <li><a href="#">Tulsi Seeds</a></li>
+                            <li><a href="#">Turnip Seeds</a></li>
+                            <li><a href="#">Vinca Seeds</a></li>
+                            <li><a href="#">Zinnia Seeds</a></li>
+                            <li><a href="#">Zucchini Seeds</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Tree and Forestry Seeds</h4>
+                          <ul style="text-decoration: none; width: 200px;">
+                            <li><a href="#">Shrub Seeds</a></li>
+                            <li><a href="#">Palm Seeds</a></li>
+                            <li><a href="#">Conifer Seeds</a></li>
+                            <li><a href="#">Medicinal Forestry Seeds</a></li>
+                            <li><a href="#">Avenue Tree Seeds</a></li>
+                            <br><br>
+                            <h4 class="title">Seeds by Feature & Uses</h4>
+                            <li><a href="#">Aromatic Plant Seeds</a></li>
+                            <li><a href="#">Butterflies Attracting Plant Seeds</a></li>
+                            <li><a href="#">Culinary Plant Seeds</a></li>
+                            <li><a href="#">Green Manuring Seeds</a></li>
+                            <li><a href="#">Hanging Basket Plant Seeds</a></li>
+                            <li><a href="#">Hedge / Border / Fence Plant Seeds</a></li>
+                            <li><a href="#">Interesting Plant Seeds</a></li>
+                            <li><a href="#">Lucky N Sacred Plant Seeds</a></li>
+                            <li><a href="#">Medicinal Plant Seeds</a></li>
+                            <li><a href="#">Ornamental Plant Seeds</a></li>
+                            <li><a href="#">Seeds Can be Grown in Pots</a></li>
+                            <li><a href="#">Seeds for Salads</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Other Seeds</h4>
+                          <ul style="text-decoration: none; width: 150px;">
+
+                            <li><a href="#">Grass Seeds</a></li>
+                            <li><a href="#">Fruit Seeds</a></li>
+                            <li><a href="#">Seed Balls</a></li>
+                            <br><br>
+                            <h4 class="title">Seeds by Cuisines</h4>
+                            <li><a href="#">Aromatic Plant Seeds</a></li>
+                            <li><a href="#">Butterflies Attracting Plant Seeds</a></li>
+                            <li><a href="#">Culinary Plant Seeds</a></li>
+                            <li><a href="#">Green Manuring Seeds</a></li>
+                            <li><a href="#">Hanging Basket Plant Seeds</a></li>
+                            <li><a href="#">Hedge / Border / Fence Plant Seeds</a></li>
+                            <li><a href="#">Interesting Plant Seeds</a></li>
+                            <li><a href="#">Lucky N Sacred Plant Seeds</a></li>
+                            <li><a href="#">Medicinal Plant Seeds</a></li>
+                            <li><a href="#">Ornamental Plant Seeds</a></li>
+                            <li><a href="#">Seeds Can be Grown in Pots</a></li>
+                            <li><a href="#">Seeds for Salads</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Rainy Sowing Seeds</h4>
+                          <ul style="text-decoration: none; width: 200px;">
+                            <li><a href="#">Rainy Sowing Vegetable Seeds</a></li>
+                            <li><a href="#">Rainy Sowing Herb Seeds</a></li>
+                            <li><a href="#">Rainy Sowing Flower Seeds</a></li>
+                            <li><a href="#">Rainy Sowing Fruit Seeds</a></li>
+                            <li><a href="#">Rainy Sowing Tree And Forestry Seeds</a></li>
+                            <br><br>
+                            <h4 class="title">Seeds by Flower Color</h4>
+                            <li><a href="#">American</a></li>
+                            <li><a href="#">Asian</a></li>
+                            <li><a href="#">Chinese</a></li>
+                            <li><a href="#">Continental</a></li>
+                            <li><a href="#">Indian</a></li>
+                            <li><a href="#">Italian</a></li>
+                            <li><a href="#">Lebanese</a></li>
+                            <li><a href="#">Mexican</a></li>
+                            <li><a href="#">Thai</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-item-has-children">
+                      <a href="#">Bulbs<i class="fa fa-angle-down"></i></a>
+                      <div class="sub-menu mega-menu" style="display: flex; gap: 2rem;">
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Trending Flower Bulbs</h4>
+                          <ul style="text-decoration: none;">
+                            <li>
+                              <a href="#">Best Seller Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Flower Bulb's Packs</a>
+                            </li>
+                            <li>
+                              <a href="#">Rainy Sowing Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Flower Bulbs Garden Kits</a>
+                            </li>
+                            <li>
+                              <a href="#">Easy To Grow Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Fragrant Flower Bulbs</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Bulbs by Sowing Time</h4>
+                          <ul style="text-decoration: none;">
+                            <li>
+                              <a href="#">Flower Bulbs to Sow in All Seasons (10C to 34C)</a>
+                            </li>
+                            <li>
+                              <a href="#">Winter Sowing Bulbs (10C to 25C)</a>
+                            </li>
+                            <li>
+                              <a href="#">Summer Sowing Bulbs (24C to 32C)</a>
+                            </li>
+                            <li>
+                              <a href="#">Rainy Sowing Bulbs (25C to 34C)</a>
+                            </li>
+
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Bulbs by Flower Color</h4>
+                          <ul style="text-decoration: none;">
+                            <li>
+                              <a href="#">Black Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Blue Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Green Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Orange Color Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Pink Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Purple Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Red Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">White Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Yellow Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Mix Color Flower Bulbs</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Bulbs by Name</h4>
+                          <ul style="text-decoration: none;">
+                            <li>
+                              <a href="#">Ranunculus Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Hyacinth Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Tulip Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Daffodil Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Crocus Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Iris Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Anemone Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Gladiolus Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Zephyranthes Lily Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Asiatic Lilies Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Caladium Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Calla Lily Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Chincherinchee Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Freesia Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Ixia Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">Oriental Lilies Flower Bulbs</a>
+                            </li>
+                            <li>
+                              <a href="#">More Flower Bulbs</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-item-has-children">
+                      <a style="text-decoration: none;" href="#">Planters<i class="fa fa-angle-down"></i></a>
+                      <div class="sub-menu mega-menu" style="display: flex; gap: 2rem;margin-left: 150px;">
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;width: 300px;">
+                          <h4 class="title">Trending Planters</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Best Seller Planters</a></li>
+                            <li><a href="#">Planter Stands</a></li>
+                            <li><a href="#">Planters' Packs</a></li>
+                            <li><a href="#">Planters - Clearance Sale</a></li>
+                            <li><a href="#">Ceramic Planters</a></li>
+                            <li><a href="#">Grower Planters</a></li>
+                            <li><a href="#">White Planters</a></li>
+                            <li><a href="#">Black Planters</a></li>
+                            <li><a href="#">Round Planters</a></li>
+                            <li><a href="#">Square Planters</a></li>
+                            <li><a href="#">Railing Planter Brackets</a></li>
+                            <li><a href="#">Metal Planters</a></li>
+                            <li><a href="#">6.1-13 inch (15-33 cm) Planters</a></li>
+                            <br><br>
+                            <h4 class="title">Planters by Shape</h4>
+                            <li><a href="#">Cone Planters</a></li>
+                            <li><a href="#">Cylindrical Planters</a></li>
+                            <li><a href="#">Hexagon Planters</a></li>
+                            <li><a href="#">Oval Planters</a></li>
+                            <li><a href="#">Rectangular Planters</a></li>
+                            <li><a href="#">Round Planters</a></li>
+                            <li><a href="#">Square Planters</a></li>
+                            <li><a href="#">Triangular Planters</a></li>
+                            <li><a href="#">Different Shape Planters</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Planter Accessories</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Planter Plates</a></li>
+                            <li><a href="#">Macrame Hangers</a></li>
+                            <li><a href="#">Planter Hangers</a></li>
+                            <li><a href="#">Railing Brackets</a></li>
+                            <li><a href="#">Wall Mounted / Wall Hanging Planter Brackets</a></li>
+                            <br><br>
+                            <h4 class="title">Planters by Finish</h4>
+                            <li><a href="#">Gloss Finish Planters</a></li>
+                            <li><a href="#">Gold Finish Planters</a></li>
+                            <li><a href="#">Matt Finish Planters</a></li>
+                            <li><a href="#">Stone Finish Planters</a></li>
+                            <li><a href="#">Wooden Finish Planters</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Planters by Type</h4>
+                          <ul style="text-decoration: none; width: 160px;">
+                            <li><a href="#">Bonsai Planters</a></li>
+                            <li><a href="#">Cute Planters</a></li>
+                            <li><a href="#">Germination Trays</a></li>
+                            <li><a href="#">Grow Bags</a></li>
+                            <li><a href="#">Grower Planters</a></li>
+                            <li><a href="#">Hanging Planters</a></li>
+                            <li><a href="#">Magnetic Planters</a></li>
+                            <li><a href="#">Pot Covers</a></li>
+                            <li><a href="#">Railing Planters</a></li>
+                            <li><a href="#">Rotomoulded Planters</a></li>
+                            <li><a href="#">Self Watering Planters</a></li>
+                            <li><a href="#">Stack Planters</a></li>
+                            <li><a href="#">Table Top Planters</a></li>
+                            <li><a href="#">Vertical Garden Planters</a></li>
+                            <li><a href="#">Wall Mounted Planters</a></li>
+                            <li><a href="#">Window Sill Planters</a></li>
+                            <br><br>
+                            <h4 class="title">Planters by Location</h4>
+                            <li><a href="#">Planters for Bedroom</a></li>
+                            <li><a href="#">Planters for Living Room</a></li>
+                            <li><a href="#">Planters for Table Tops</a></li>
+                            <li><a href="#">Planters for Terrace and Balcony</a></li>
+                            <li><a href="#">Planters for Window Sills</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Planters by Size</h4>
+                          <ul style="text-decoration: none; width: 160px;">
+                            <li><a href="#">Upto 6 inch (15 cm) Planters</a></li>
+                            <li><a href="#">6.1 - 13 inch (15 - 33 cm) Planters</a></li>
+                            <li><a href="#">13.1 - 20 inch (33 - 51 cm) Planters</a></li>
+                            <li><a href="#">Above 20 inch (51 cm) Planters</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Planters by Material</h4>
+                          <ul style="text-decoration: none; width: 160px;">
+                            <li><a href="#">Ceramic Planters</a></li>
+                            <li><a href="#">Coir Planters</a></li>
+                            <li><a href="#">Concrete Planters</a></li>
+                            <li><a href="#">Fiberglass Planters</a></li>
+                            <li><a href="#">Glass Planters</a></li>
+                            <li><a href="#">Jute Planters</a></li>
+                            <li><a href="#">Metal Planters</a></li>
+                            <li><a href="#">Plastic Planters</a></li>
+                            <li><a href="#">Wooden Planters</a></li>
+                          </ul>
+                        </div>
+                        <div style="text-decoration: none; border-right: 1px solid #d9d9d9;" class="list-item">
+                          <h4 class="title">Planters by Color</h4>
+                          <ul style="text-decoration: none; width: 170px;">
+                            <li><a href="#">White Planters</a></li>
+                            <li><a href="#">Black Planters</a></li>
+                            <li><a href="#">Blue Planters</a></li>
+                            <li><a href="#">Brown Planters</a></li>
+                            <li><a href="#">Golden Color Planters</a></li>
+                            <li><a href="#">Green Planters</a></li>
+                            <li><a href="#">Orange Planters</a></li>
+                            <li><a href="#">Pink Planters</a></li>
+                            <li><a href="#">Purple / Violet Planters</a></li>
+                            <li><a href="#">Red Planters</a></li>
+                            <li><a href="#">Silver Color Planters</a></li>
+                            <li><a href="#">Terracotta Color Planters</a></li>
+                            <li><a href="#">Yellow Planters</a></li>
+                            <li><a href="#">Multicolor Planters</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-item-has-children">
+                      <a style="text-decoration: none;" href="#">Soil & Fertilizer<i class="fa fa-angle-down"></i></a>
+                      <div class="sub-menu mega-menu" style="display: flex; gap: 4rem;">
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Best Seller Soil and Fertilizer</a></li>
+                            <li><a href="#">Soil and Fertilizers' Packs</a></li>
+                            <li><a href="#">Organic Fertilizer</a></li>
+                            <li><a href="#">Potting Soil</a></li>
+                            <li><a href="#">Cocopeat</a></li>
+                            <li><a href="#">Soil Additives</a></li>
+                          </ul>
+                        </div>
+                    <li class="menu-item-has-children">
+                      <a style="text-decoration: none;" href="#">Gifts<i class="fa fa-angle-down"></i></a>
+                      <div class="sub-menu mega-menu" style="display: flex; gap: 2rem;margin-left: 150px;">
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;width:300px;">
+                          <h4 class="title">Trending Gifts</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Best Seller Gifts</a></li>
+                            <li><a href="#">Plants As Corporate Gifts</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">Air Purifier Gifts</a></li>
+                            <li><a href="#">Eco Friendly Gifts</a></li>
+                            <li><a href="#">Gardening Gifts</a></li>
+                          </ul>
+                        </div>
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Plants As Corporate Gifts</h4>
+                          <ul style="text-decoration: none;">
+                          </ul>
+                        </div>
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Gifts for Festivals</h4>
+                          <ul style="text-decoration: none;width: 155px;">
+                            <li><a href="#">New Year N Christmas Gifts</a></li>
+                            <li><a href="#">Rakhi Gifts - 30th Aug</a></li>
+                            <li><a href="#">Diwali Gifts - 12th Nov</a></li>
+                            <li><a href="#">More Gifts For Festivals</a></li>
+                          </ul>
+                        </div>
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Gifts for Loved ones</h4>
+                          <ul style="text-decoration: none; width: 155px;">
+                            <li><a href="#">Gifts By Zodiac</a></li>
+                            <li><a href="#">Gifts For Brother / Sister</a></li>
+                            <li><a href="#">Gifts For Kids</a></li>
+                            <li><a href="#">Gifts For Parents</a></li>
+                            <li><a href="#">Gifts For Your Love</a></li>
+                          </ul>
+                        </div>
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Gifts for Occasions</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Birthday Gifts</a></li>
+                            <li><a href="#">Anniversary Gifts</a></li>
+                            <li><a href="#">More Gifts For Occasions / Emotions</a></li>
+                          </ul>
+                        </div>
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Gifts for Special Days</h4>
+                          <ul style="text-decoration: none; width: 150px;">
+                            <li><a href="#">Mothers Day Gifts - 14th May</a></li>
+                            <li><a href="#">Environment Day - 5th Jun</a></li>
+                            <li><a href="#">Fathers Day Gifts - 18th Jun</a></li>
+                            <li><a href="#">Friendship Day Gifts - 6th Aug</a></li>
+                            <li><a href="#">Valentines Day Gifts - 14th Feb</a></li>
+                            <li><a href="#">More Gifts For Special Days</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    <li class="menu-item-has-children">
+                      <a style="text-decoration: none;" href="#">Pebbles<i class="fa fa-angle-down"></i></a>
+                      <div class="sub-menu mega-menu" style="display: flex; gap: 4rem;">
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Trending Pebbles</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Best Seller Pebbles</a></li>
+                            <li><a href="#">Decoration Through Pebbles</a></li>
+                            <li><a href="#">Aquarium Pebbles</a></li>
+                            <li><a href="#">Natural Pebbles</a></li>
+                            <li><a href="#">Chips Pebbles</a></li>
+                            <li><a href="#">White Pebbles</a></li>
+                            <li><a href="#">Mix Color Pebbles</a></li>
+                            <li><a href="#">Medium Pebbles</a></li>
+                          </ul>
+                        </div>
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Pebbles by Color</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Black Pebbles</a></li>
+                            <li><a href="#">Blue Pebbles</a></li>
+                            <li><a href="#">Brown Pebbles</a></li>
+                            <li><a href="#">Green Pebbles</a></li>
+                            <li><a href="#">Purple / Violet Pebbles</a></li>
+                            <li><a href="#">Red / Pink Pebbles</a></li>
+                            <li><a href="#">White Pebbles</a></li>
+                            <li><a href="#">Yellow / Orange Pebbles</a></li>
+                            <li><a href="#">Mix Color Pebbles</a></li>
+                          </ul>
+                        </div>
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Pebbles by Size</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Small Pebbles</a></li>
+                            <li><a href="#">Medium Pebbles</a></li>
+                            <li><a href="#">Big Pebbles</a></li>
+                          </ul>
+                        </div>
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <h4 class="title">Pebbles by Type</h4>
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Aquarium Pebbles</a></li>
+                            <li><a href="#">Chips Pebbles</a></li>
+                            <li><a href="#">Granite / Marble Pebbles</a></li>
+                            <li><a href="#">More Natural Pebbles</a></li>
+                            <li><a href="#">Onex Pebbles</a></li>
+                            <li><a href="#">Stone Sand</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    <li class="menu-item-has-children">
+                      <a style="text-decoration: none;" href="#">Accessories<i class="fa fa-angle-down"></i></a>
+                      <div class="sub-menu mega-menu" style="display: flex; gap: 4rem;margin-left: 150px;">
+                        <div class="list-item" style="border-right: 1px solid #d9d9d9;">
+                          <ul style="text-decoration: none;">
+                            <li><a href="#">Best Seller Accessories</a></li>
+                            <li><a href="#">Accessories - Clearance Sale</a></li>
+                            <li><a href="#">Gardening Tools</a></li>
+                            <li><a href="#">Miniature Garden Toys</a></li>
+                            <li><a href="#">Gardening Accessories</a></li>
+                            <li><a href="#">Addons</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a style="text-decoration: none;" href="#">Corporate</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- menu end here -->
+
+              <!-- menu start here -->
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+  </div>
+
+
+
+{% block content %}
+{% endblock content %}
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="">Track Order</a></li>
+            <li><a href="">Orders</a></li>
+            <li><a href="">Wishlist</a></li>
+            <li><a href="">FAQ's</a></li>
+            <li><a href="">Offers</a></li>
+            <li><a href="">Rewards</a></li>
+            <li><a href="">Affiliate</a></li>
+            <li><a href="">Corporate</a></li>
+          </ul>
+        </div>
+
+        <!-- 2nd Column -->
+        <div class="footer-col">
+          <h4>About</h4>
+          <ul>
+            <li><a href="">About Nursery</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Refund Policy</a></li>
+            <li><a href="">Shipping Policy</a></li>
+            <li><a href="">Terms of Services</a></li>
+            <li><a href="">Jobs</a></li>
+          </ul>
+        </div>
+
+        <!-- 3rd Column -->
+        <div class="footer-col">
+          <h4>Gardening Knowledge</h4>
+          <ul>
+            <li><a href="">Blogs > Plants Talk</a></li>
+            <li><a href="">Blog > Kitchen Gardening</a></li>
+            <li><a href="">Blog > Top 10 Plants</a></li>
+            <li><a href="">Blogs > Sustainable</a></li>
+            <li><a href="">blog.nursery.com</a></li>
+            <li><a href="">wiki.nursery.com</a></li>
+
+          </ul>
+        </div>
+
+        <!-- 3th Column -->
+
+        <div class="footer-col">
+          <h4>Subscribe</h4>
+          <!-- <p>Join us to reccive gardening tips,offers,news & more</p> -->
+          <form action="">
+            <input type="text" placeholder="Your Name" class="inputbox">
+            <input type="email" placeholder="Enter Email" class="inputbox">
+            <input type="submit" value="Sign up" class="inputSubmit">
+          </form>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col">
+          <p>&#169; 2023 Nursery. All Rights Reserved.</p>
+        </div>
+        <div class="socialIcons">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
